@@ -1,0 +1,10 @@
+#Python program to find sum of elements in list
+sum=0
+
+#define a array
+l=[ 1 ,2,3,4,5,6,7,8,9,10]
+
+#use for loop to print the sum of array
+for i in l:
+    sum=sum+i
+print("sum of a l is = ",sum)
