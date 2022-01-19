@@ -1,0 +1,14 @@
+#Python program to print even numbers in a list
+
+try:
+    #make a function
+    def even():
+        """funtion which will give even numbers from a list"""
+        a=[1,2,45,56,43,765,543,54]
+        for i in a:
+            if i%2==0:
+                print(i)
+
+    even()
+except Exception as e:
+    print(e)
