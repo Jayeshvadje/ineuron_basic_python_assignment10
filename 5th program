@@ -1,0 +1,22 @@
+#Python program to find second largest number in a list
+
+
+try:
+
+    #making a function
+    def  Slargest():
+        """function which will tell us about a smallest elements in the list"""
+
+        # inisilising a list
+        a=[11,243,6,423,76,86,43,55]
+
+        #using sort method to find the largest element from the list
+        a.sort()
+
+        #printing the largest element
+        print("second largest number from a list is = ",a[-2])
+
+    Slargest()
+
+except Exception as e:
+    print(e)
