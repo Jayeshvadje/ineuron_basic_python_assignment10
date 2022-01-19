@@ -3,7 +3,7 @@
 try:
     #making a function
     def  largest():
-        """function which will tell us about a smallest elements in the list"""
+        """function which will tell us about a largest elements in the list"""
         # inisilising a list
 
         a=[11,243,6,423,76,86,43,55]
