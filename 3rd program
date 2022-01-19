@@ -1,0 +1,15 @@
+#Python program to find smallest number in a list
+
+try:
+    #making a function
+    def  smallest():
+        """function which will tell us about a smallest elements in the list"""
+        # inisilising a list
+
+        a=[11,243,6,423,76,86,43,55]
+        for i in a:
+            b=min(a)
+        print("samllest number from a list is = ",b)
+    smallest()
+except Exception as e:
+    print(e)
