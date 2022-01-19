@@ -1,0 +1,17 @@
+#Python program to Cloning or Copying a list
+try:
+    #make  a function
+    def cln():
+        """function which will copy one list to another"""
+        #take one list
+        a=[1,2,3,4,5,6,7]
+        #take another empty list
+        b=[]
+        #use copy method to copy one list into another
+        b=a.copy()
+        #print second list
+        print("copeid list is =",b)
+    #call the function
+    cln()
+except Exception as e:
+    print(e)
