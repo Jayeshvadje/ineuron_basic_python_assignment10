@@ -1,0 +1,17 @@
+#Python program to find largest number in a list
+
+try:
+    #making a function
+    def  largest():
+        """function which will tell us about a smallest elements in the list"""
+        # inisilising a list
+
+        a=[11,243,6,423,76,86,43,55]
+        #using for loop to find the largest element from the list
+        for i in a:
+            b=max(a)
+        #printing the largest element
+        print("largest number from a list is = ",b)
+    largest()
+except Exception as e:
+    print(e)
