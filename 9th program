@@ -1,0 +1,17 @@
+#Python program to print odd numbers in a List
+
+try:
+    #make a function
+    def even():
+        """funtion which will give odd numbers from a list"""
+        #take a one list
+        a=[1,2,45,56,43,765,543,54]
+        #use for loop to check the odd numbers from a list
+        for i in a:
+            if i%2!=0:
+                print(i)
+                
+    #return the function
+    even()
+except Exception as e:
+    print(e)
