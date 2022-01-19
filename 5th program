@@ -5,7 +5,7 @@ try:
 
     #making a function
     def  Slargest():
-        """function which will tell us about a smallest elements in the list"""
+        """function which will tell us about a second largest elements in the list"""
 
         # inisilising a list
         a=[11,243,6,423,76,86,43,55]
